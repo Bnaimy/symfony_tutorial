@@ -1,0 +1,12 @@
+to create an new page whether html page or a json endpoint
+
+we need two steps :
+
+1 - ) create a route
+
+route is an url for you're page and he point to a controller
+
+2 - ) create a controller
+
+controller is the php function you write that build the page
+ you take incoming request info and use it to create a symfony response object which can hold HTML content , json string , or a binary file like image or pdf

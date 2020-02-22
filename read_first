@@ -1,0 +1,64 @@
+# symfony
+#naimy bouchaib ; bouchaibnaimy1999@gmail.com
+#22/02/2020
+HI FRIENDS !
+
+this repository for a goal to learn all about symfony
+
+he will have all components necessary to build an web app with symfony
+
+enjoy !
+
+requirements needs :
+
+install php 7.2.+ ;
+install composer => composer is the element that install all dependencies do you need in the project
+install symfony : is not require
+
+create new application symfony :
+
+you have the choice to choose between install with symfony or the composer
+
+with symfony : => symfony new my_project_name --full
+with composer : => composer create-project symfony/website-skeleton <nom_projet>
+
+
+NOTE :
+
+the path of cache directory => /var/cache/
+the path of log directory => /var/log/
+
+#content of this two folders writable by the web server
+
+
+#to start you're app
+
+symfony server:start
+
+
+#if you clone my project or other symfony project you'll probably need to show information about the project in this case you should run this command
+
+php bin/console about
+
+#the packages needs to install in you're project called in symfony bundles
+#to work with some budles we should have make a setup to enable this bundles
+#for that symfony create symfony_flex to simplify the installation/removal of packages in Symfony applications
+#its a composer plugin installed by default
+
+differents use of symfony_flex
+
+1-> composer require <package>
+2-> composer update <package>
+3-> composer require <remove>
+
+#after installing any feautures in you're app
+#you can see it in composer.json file
+
+#symfony give to developers possibility to check the Security Vulnerabilities by taping
+symfony check:security
+#this command can tell you if you need to update or remove a package to be safe
+
+<<<<<<< HEAD
+
+=======
+>>>>>>> 7c44f83a50f7cf22b86c644ee5f530e4809019ef
